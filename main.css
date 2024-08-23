@@ -1,0 +1,167 @@
+.main-title {
+    color: aquamarine;
+    font-size: 39px;
+    text-align: center;
+    font-family: Handwriting;
+    background-color: blue;
+    margin-top: 0px;
+}
+
+.translation {
+    color: black;
+    font-size:3vw;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aquamarine;
+
+    animation-name: anim1;  
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim1 {
+    from {
+        transform: translateX(-50px);
+
+    }
+
+    to {
+        transform: translateX(50px);
+    }
+
+}
+
+.color {
+    font-size:3vw;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aquamarine;
+
+    animation-name: anim2;  
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim2 {
+    0% {
+        color: red;
+
+    }
+
+    25% {
+        color: orange;
+
+    }
+
+    50% {
+        color: yellow ;
+
+    }
+
+    75% {
+        color: lime;
+
+    }
+
+    100% {
+        color: blue;
+
+    }
+}
+
+
+
+.main-content {
+    margin-top: 50%;
+}
+
+.sidebar-left {
+    width: 20%;
+    height: 600px;
+    background-color: red;
+    float: left;
+}
+
+.sidebar-right {
+    width: 20%;
+    height: 600px;
+    background-color: red;
+    float: right;
+}
+
+.mid-section {
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    float: left;
+}
+
+.sidebar-left img {
+    width: 100%;
+}
+
+.sidebar-left header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: Black;
+}
+
+
+.button1 {
+    margin: auto;
+    display: block;
+    background-color: skyblue;
+    color: black;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+
+.button1:hover {
+    background-color: turquoise;
+    font-size: 17px;
+    border: 10px solid black;
+}
+
+table {
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: orangered;
+}
+
+
+table img {
+    display : block;
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: orange;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
